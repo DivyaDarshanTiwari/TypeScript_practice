@@ -1,6 +1,9 @@
 function wrapInArray<T>(value: T): T[] {
   return [value];
 }
+//<T> is a generic type parameter that allows the function to accept any type of argument and return an array of that same type.
+
+// Example usages:
 
 wrapInArray(5); // Returns: [5]
 wrapInArray("hello"); // Returns: ["hello"]
